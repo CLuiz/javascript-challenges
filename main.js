@@ -71,3 +71,9 @@ function getTruthy(arr) {
     }
     console.log(outArr);
 }
+
+// get unique chars from two arrays
+function getUnique(arr1, arr2) {
+    var arr = arr1.concat(arr2);
+    console.log(Array.from(new Set(arr)));
+}
